@@ -1,0 +1,91 @@
+/* 🌍 RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #3b1f1f;
+  line-height: 1.6;
+  background:
+    linear-gradient(rgba(241, 239, 233, 0.596), rgb(241, 239, 233)),
+    url("https://images.unsplash.com/photo-1599599811214-3d44be99547f?q=80&w=1227&auto=format&fit=crop");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p{
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 25px;
+}
+
+/* 🌟 ОБЩИЙ КОНТЕЙНЕР */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+
+/*SLIDER*/
+.home-slider {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.slide h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a2a1a;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #ec3414, #a50202);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.checkout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* 📱 ADAPTIVE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 34px;
+  }
+
+  .navbar-menu {
+    gap: 15px;
+  }
+}

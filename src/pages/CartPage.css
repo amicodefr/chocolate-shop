@@ -1,0 +1,141 @@
+
+
+/* 📦 Контейнер корзины */
+.cart-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Заголовки */
+.cart-page h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cart-page h2 {
+  text-align: right;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* 🛒 Список товаров */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Карточка товара */
+.cart-item {
+  display: flex;
+  gap: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  flex-wrap: wrap;
+  transition: transform 0.3s;
+}
+
+.cart-item:hover {
+  transform: translateY(-4px);
+}
+
+/* Картинка товара */
+.cart-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Контент карточки */
+.cart-item-content {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cart-item-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.cart-item-content p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+/* Кнопки + / - */
+.quantity-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  background-color: #c89b63;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.btn-primary{
+  background-color: #a71103;
+  padding:10px;
+  color: #fff;
+}
+.quantity-btn:hover {
+  background-color: #b38450;
+  transform: translateY(-2px);
+}
+
+/* Поле для ввода количества */
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+/* Кнопка удаления товара */
+.remove-btn {
+  padding: 6px 12px;
+  background: #a71103;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.remove-btn:hover {
+  background: #e85a50;
+}
+
+/* Кнопка очистки корзины */
+.clear-cart-btn {
+  padding: 12px 25px;
+  background: #a71103;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+
+ а как тебе мой css для корзинки?
